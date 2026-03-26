@@ -1,0 +1,32 @@
+{
+  "name": "atividade04",
+  "version": "1.0.0",
+  "description": "criação de uma aplicação + validação e cookies",
+  "keywords": [
+    "post",
+    "get",
+    "cookie"
+  ],
+  "homepage": "https://github.com/Arthuroc-jpg/Atividade4PPI-Cookies#readme",
+  "bugs": {
+    "url": "https://github.com/Arthuroc-jpg/Atividade4PPI-Cookies/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthuroc-jpg/Atividade4PPI-Cookies.git"
+  },
+  "license": "ISC",
+  "author": "Arthur",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "session": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+}
